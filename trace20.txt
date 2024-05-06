@@ -1,0 +1,19 @@
+#
+#trace20.txt - Tests fg and bg when incomplete or incorrect commands are given   
+#
+
+/bin/echo -e tsh\076 ./myspin 10
+./myspin 10 
+
+SLEEP 2
+TSTP
+
+/bin/echo - e tsh\076 fg
+fg
+
+/bin/echo -e tsh\076 bg %7
+bg %7
+
+/bin/echo -e tsh\076 bg
+bg
+

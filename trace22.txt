@@ -1,0 +1,16 @@
+# 
+# trace 15 - extensive testing of Signals
+#
+
+INT
+INT
+TSTP
+TSTP
+
+/bin/echo -e tsh\076 ./myspin 10
+./myspin 10
+
+SLEEP 2
+INT
+
+

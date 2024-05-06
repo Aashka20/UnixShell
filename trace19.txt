@@ -1,0 +1,4 @@
+#
+# trace19.txt - Tests pipelining of two commands
+#
+/bin/echo | ./hello_world

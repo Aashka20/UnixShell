@@ -1,0 +1,4 @@
+#
+# trace18.txt - Tests pipelining of two commands
+#
+./myspin 1 | ./myspin 1
